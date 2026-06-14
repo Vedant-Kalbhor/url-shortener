@@ -49,7 +49,7 @@ def home():
         </style>
     </head>
     <body>
-        <h2>🔗 Minimal URL Shortener</h2>
+        <h2>🔗 URL Shortener</h2>
         <form method="POST" action="/shorten">
             <input name="url" placeholder="Enter URL" required /><br>
             <input name="expiry_seconds" placeholder="Expiry (seconds, optional)" /><br>
